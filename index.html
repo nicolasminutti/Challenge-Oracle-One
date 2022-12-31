@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nicolás Minutti" />
+    <meta name="description" content="Challenge ONE Principiante en programación | Sprint 01: Construye un encriptador de texto con Javascript" />
+    <meta name="keywords" content="challenge, HTML, CSS, JavaScript, Alura, ONE, programación, Sprint 01, encriptador" />
+    <script src="scripts/scripts.js" defer></script>
+    <title>Challenge ONE | Alura</title>
+    <link rel="icon" href="image/icono.svg">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="image/logo.svg" alt="Logo Alura ONE">
+    </header>
+    <main>
+        <section>
+            <textarea id="textoUsuario" placeholder="Ingrese el texto aquí"></textarea>
+            <div id="textoInfo">
+                <h5>
+                    <img src="image/informacion.svg" alt="Símbolo Información">
+                    <span>Solo letras minúsculas y sin acentos</span>
+                </h5>
+            </div>            
+            <div id="btnAccion">
+                <button id="btnEncriptar" type="button" onclick="encriptar()">Encriptar</button>
+                <button id="btnDesencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <aside>
+            <span id="contenidoEncriptado"></span>
+            <div id="contenidoInicio">
+                <img src="image/muñeco.svg" alt="Imagen persona buscando">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <h3>Ingresa el texto que deseas encriptar o desencriptar</h3>
+            </div>
+            <button type="button" id="btnCopiar" onclick="copiarAlPortapapeles()">Copiar</button>
+        </aside>
+    </main>
+    <footer>
+        <div id="copyright">
+            <h4>&copy Nicolás Minutti</h4>
+            <ul>
+                <li><a href="https://github.com/nicolasminutti"><img class="logo" src="image/github.svg" alt="Logo Github"></a></li>
+                <li><img class="logo" src="image/html5.svg" alt="Logo HTML5"></li>
+                <li><img class="logo" src="image/css3.svg" alt="Logo CSS3"></li>
+                <li><img class="logo" src="image/javascript.svg" alt="Logo JavaScript"></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
