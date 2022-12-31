@@ -1,4 +1,4 @@
-# Challenge ONE Principiante en programación
+# Challenge ONE Principiante en Programación
 Sprint 01: Construye un encriptador de texto con Javascript
 
 
