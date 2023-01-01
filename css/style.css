@@ -197,6 +197,11 @@ aside {
     text-align: center;
 }
 
+#btnCopiar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 footer {
     font-family: "Inter", sans-serif;
     display: flex;
