@@ -184,13 +184,10 @@ aside {
 
 #btnCopiar {
     height: 67px;
-    width: 328px;
-    left: 0px;
-    top: 0px;
+    width: 80%;
     border: 1px solid #0a3871;
     border-radius: 24px;
     padding: 24px;
-    gap: 8px;
     font-weight: 400;
     font-size: 1.15rem;
     line-height: 19px;
